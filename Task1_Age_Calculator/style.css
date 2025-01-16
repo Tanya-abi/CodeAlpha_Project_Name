@@ -16,7 +16,9 @@ body{
 }
 
 h1{
+    
    background-image:  radial-gradient(circle, rgb(87, 144, 89) 25%, rgba(76,175,80,1) 55%, rgba(134,226,137,1) 100%, rgba(0,0,0,1) 100%);
+   background-clip: text;
    -webkit-background-clip: text; /* clips the background to the text */
    color: transparent; /* make the text color transparent so the gradient shows */
    
