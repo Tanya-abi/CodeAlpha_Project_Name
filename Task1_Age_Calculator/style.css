@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+body{
+    background-color: #22262F;
+    color: white;
+    font-family: "Noto Sans JP", serif;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+h1{
+   background-image:  radial-gradient(circle, rgb(87, 144, 89) 25%, rgba(76,175,80,1) 55%, rgba(134,226,137,1) 100%, rgba(0,0,0,1) 100%);
+   -webkit-background-clip: text; /* clips the background to the text */
+   color: transparent; /* make the text color transparent so the gradient shows */
+   
+}
+
+
+/*  */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    align-content:space-evenly;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.card {
+    background-color: #2E333E;
+    padding: 1rem;
+    margin: 1.5rem;
+
+}
+
+.description{
+    margin: 40px 0;
+}
+
+section{
+    margin: 40px 0;
+}
+
+/*Styling the age diplay div*/
+
+#age {
+    margin-top: 14px;
+    background-color: #1C1F26;
+    padding: 1rem;
+    box-shadow: 3px 3px #22262F;
+}
+
+/* Styling the input field */
+input[type="date"], input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #86e289;
+    border-radius: 5px;
+    color: #333;
+    margin: 10px;
+  }
+  
+  input[type="date"]:focus, input[type="text"]:focus {
+    border-color: #388e3c; /* Darker green on focus */
+    outline: none;
+  }
+  
+  /* Styling the calculation button to match */
+  button {
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    border-color: #388e3c;
+  }
+  
+  /* Button focus effect */
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(72, 172, 87, 0.7);
+  }
+  
+  a{
+    text-decoration: none;
+    color: #388e3c;
+  }
+
+  
