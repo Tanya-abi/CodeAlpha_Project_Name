@@ -11,7 +11,7 @@ body{
     color: white;
     font-family: "Noto Sans JP", serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
 
 }
 
@@ -33,40 +33,43 @@ h1{
     width: 100%;
     overflow: hidden;
     justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .card {
     background-color: #2E333E;
     padding: 1rem;
-    margin: 1.5rem;
+    margin: 3rem 1.5rem;
+
 
 }
 
 .description{
-    margin: 40px 0;
+    margin: 2,5rem 0;
 }
 
 section{
-    margin: 40px 0;
+    margin: 2,5rem 0;
 }
 
 /*Styling the age diplay div*/
 
 #age {
-    margin-top: 14px;
+    margin-top: 0.875rem;
     background-color: #1C1F26;
     padding: 1rem;
-    box-shadow: 3px 3px #22262F;
+    box-shadow: 0.1875rem 0.1875rem #22262F;
 }
 
 /* Styling the input field */
 input[type="date"], input[type="text"] {
-    padding: 5px;
-    font-size: 16px;
-    border: 2px solid #86e289;
-    border-radius: 5px;
+    padding: 0.3125rem;
+    font-size: 1rem;
+    border: 0.125rem solid #86e289;
+    border-radius: 0.3125rem;
     color: #333;
-    margin: 10px;
+    margin: 0.625rem;
   }
   
   input[type="date"]:focus, input[type="text"]:focus {
@@ -76,10 +79,10 @@ input[type="date"], input[type="text"] {
   
   /* Styling the calculation button to match */
   button {
-    padding: 7px;
-    font-size: 16px;
-    border: 2px solid #4CAF50;
-    border-radius: 5px;
+    padding: 0.4375rem;
+    font-size: 1rem;
+    border: 0.125rem solid #4CAF50;
+    border-radius: 0.3125rem;
     background-color: #f9f9f9;
     color: #333;
     cursor: pointer;
@@ -96,7 +99,7 @@ input[type="date"], input[type="text"] {
   /* Button focus effect */
   button:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(72, 172, 87, 0.7);
+    box-shadow: 0 0 0.3125rem rgba(72, 172, 87, 0.7);
   }
   
   a{
