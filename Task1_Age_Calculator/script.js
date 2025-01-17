@@ -34,9 +34,10 @@ function calculateAge(dobDate){
     const currentDate = new Date();
     const calcDate = (currentDate - birthday) / (1000 * 60 * 60 * 24 * 365); //Code multiples age by subtracting today's date from birth date. Because the code returns the answer in millisecond, this " (1000 * 60 * 60 * 24 * 365) calculation, converts the milliseconds to years"
     const displayAge = document.getElementById('age');
+    console.log(calcDate);
 
     if (calcDate < 1) {
-        displayAge.innerHTML = `Welcome to the adventure playground of life! <br> <strong>You are just under ${(Math.floor(calcDate * 365 / 30))} month/s</strong>`; // Since calcDate is stored in years, this calculation converts the calcDate value to accomodate infants under 1year. 
+        displayAge.innerHTML = `Welcome to the adventure playground of life! <br> <strong>You are around ${(Math.floor(calcDate * 365 / 30))} month/s old </strong>`; // Since calcDate is stored in years, this calculation converts the calcDate value to accomodate infants under 1year. 
     }else if (calcDate >= 1 && calcDate <= 12) {
         displayAge.innerHTML = `Childhood is all about curiosity, exploration, and endless fun!  <br><strong> You're ${Math.floor(calcDate)} year/s old.</strong>`;
     } else if (calcDate >= 13 && calcDate <= 19) {
